@@ -1,0 +1,179 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 100%;
+    margin-top: .5rem;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 1rem;
+}
+
+.header-text {
+    text-align: left;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact,
+.certificates,
+.certificates,
+.languages,
+.skills,
+.education,
+.projects,
+.modifications {
+    margin-top: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 0.5rem;
+}
+
+.certificate-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.certificate-item img {
+    max-width: 100px;
+    margin-right: 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-item p {
+    margin: 0;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.language img {
+    max-width: 40px;
+    margin-right: 1rem;
+}
+
+.language-details h3 {
+    margin: 0;
+}
+
+.language-details p {
+    margin: 0;
+    color: #666;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    width: 75%;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 1.5rem;
+}
+
+.skills-list h3 {
+    margin: 0;
+}
+
+p:not(.footer p, .header-text p), figcaption {
+    margin-top: 0.5rem;
+    color: #444444;
+}
+
+code {
+    border-radius: 3px;
+    background-color: #666;
+    color: #f9f9f9;
+    padding: 0.2rem 0.5rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center aligns horizontally */
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.image-caption {
+    flex: 0 0 96px; /* Each image takes up 1/3 width with spacing */
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.image-caption img {
+    max-width: 100%;
+}
+
+.modification {
+    margin-bottom: 1.5rem;
+}
+
+.modification h3 {
+    margin-bottom: 0;
+    margin-top: .5rem;
+}
